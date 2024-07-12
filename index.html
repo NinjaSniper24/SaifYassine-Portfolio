@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saif Yassine Touil</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.12.3/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyAhsqaJZYBBsNVdJjLpVZ7LXTC_SnUOPZ0",
+        authDomain: "portfolio-saif-7a476.firebaseapp.com",
+        projectId: "portfolio-saif-7a476",
+        storageBucket: "portfolio-saif-7a476.appspot.com",
+        messagingSenderId: "179072253236",
+        appId: "1:179072253236:web:0e120e605a4de68cc73961",
+        measurementId: "G-58ZGTCMQ7F"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </body>
+</html>
